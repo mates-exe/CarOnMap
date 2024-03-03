@@ -190,12 +190,3 @@ while True:
         print("Exiting...")
         break
     move_car(room_grid, direction)
-
-
-while True:
-    direction = input("Enter direction (W, S, A, D to move the car, or 'Q' to quit): ").upper()
-    if direction == 'Q':
-        print("Exiting...")
-        break
-    move_car(room_grid, direction)
-    print_map()
